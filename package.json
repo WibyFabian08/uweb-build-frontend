@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "node -r dotenv/config ./node_modules/.bin/react-scripts build dotenv_config_path=.env.production",
+    "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "eject": "react-scripts eject",
     "watch:css": "postcss --watch tailwindcss/style.css -o src/assets/css/style.css"
